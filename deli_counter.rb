@@ -9,7 +9,6 @@ def line(katzLine)
       s = s + " #{person+1}. #{katzLine[person]}"
     end
   end
-  puts s
   return s
 end
 
