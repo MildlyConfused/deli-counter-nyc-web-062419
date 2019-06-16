@@ -15,6 +15,7 @@ def line(katzLine)
 end
 
 def take_a_number(katzLine, name)
+  katzLine.push(name)
   
 end
 
@@ -22,4 +23,3 @@ def now_serving(katzLine)
   
 end
 
-line([])
