@@ -22,6 +22,7 @@ def take_a_number(katzLine, name)
 end
 
 def now_serving(katzLine)
-  if 
+  if katzLine.size == 0 
+    puts "There is nobody waiting to be served!"
 end
 
