@@ -16,7 +16,7 @@ end
 
 def take_a_number(katzLine, name)
   katzLine.push(name)
-  
+  s = "Welcome, #{name}. You are number #{katzLine.size} in line."
 end
 
 def now_serving(katzLine)
