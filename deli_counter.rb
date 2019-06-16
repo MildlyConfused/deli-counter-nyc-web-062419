@@ -4,9 +4,11 @@ def line(katzLine)
     puts "The line is currently empty."
   else
     range = 0..katzLine.length-1
+    s = "The line is currently: "
     for person in range
-      puts 
+      s = s + "#{person+1}. #{katzLine[person]} "
   end
+  puts s
 end
 
 def take_a_number(katzLine, name)
