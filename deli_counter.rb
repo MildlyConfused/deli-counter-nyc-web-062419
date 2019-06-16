@@ -7,6 +7,7 @@ def line(katzLine)
     s = "The line is currently: "
     for person in range
       s = s + "#{person+1}. #{katzLine[person]} "
+    end
   end
   puts s
 end
