@@ -21,4 +21,4 @@ def now_serving(katzLine)
   
 end
 
-line([)
+line([])
