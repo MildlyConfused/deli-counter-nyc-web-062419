@@ -1,6 +1,6 @@
 # Write your code here.
 def line(katzLine)
-  if katzLine.length == 0 
+  if katzLine.size == 0 
     return "The line is currently empty."
   else
     range = 0..katzLine.length-1
