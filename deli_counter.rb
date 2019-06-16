@@ -22,6 +22,6 @@ def take_a_number(katzLine, name)
 end
 
 def now_serving(katzLine)
-  
+  if 
 end
 
