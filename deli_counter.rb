@@ -1,7 +1,7 @@
 # Write your code here.
 def line(katzLine)
   if katzLine.length == 0 
-    puts "The line is currently empty."
+    return "The line is currently empty."
   else
     range = 0..katzLine.length-1
     s = "The line is currently: "
@@ -10,6 +10,7 @@ def line(katzLine)
     end
   end
   puts s
+  return s
 end
 
 def take_a_number(katzLine, name)
