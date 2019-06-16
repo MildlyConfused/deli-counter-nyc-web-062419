@@ -24,5 +24,11 @@ end
 def now_serving(katzLine)
   if katzLine.size == 0 
     puts "There is nobody waiting to be served!"
+  else
+    name = katzLine.shift
+    s = "Currently serving #{name}."
+    puts s 
+    return s 
+  end
 end
 
